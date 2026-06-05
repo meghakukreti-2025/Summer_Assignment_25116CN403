@@ -4,7 +4,7 @@ int main(){
     printf("enter a number");
     scanf("%d",&n);
     int og=n;
-    for (i=1;i<n;i++){
+    for (i=1;i<n;i++){ //loop for finding the factors of the number
         if (og%i==0){
             sum=sum+i;
         }
