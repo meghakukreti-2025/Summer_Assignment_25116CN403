@@ -15,6 +15,7 @@ int main(){
         printf("enter b[%d]", i);
         scanf("%d",&b[i]);
         }
+    printf("the common elements are = ");
     for(i=0;i<n1;i++){
         int count=0;
         for (j=0;j<i;j++){
