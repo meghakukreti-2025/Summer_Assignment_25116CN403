@@ -32,10 +32,10 @@ int main() {
                     printf("division by zero is not possible\n");
                 break;
             case 5:
-                printf("Exiting...\n");
+                printf("exiting\n");
                 break;
             default:
-                printf("Invalid Choice!\n");
+                printf("invalid choice\n");
         }
     } while (choice != 5);
 return 0;
